@@ -1,4 +1,4 @@
-Credential Stuffing Detection via Stored XSS
+Credential Stuffing  via Stored XSS Detection
 
 Overview
 --------
