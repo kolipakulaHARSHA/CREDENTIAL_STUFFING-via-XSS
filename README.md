@@ -23,33 +23,6 @@ To run this project, ensure you have the following installed:
 - Damn Vulnerable Web Application (DVWA): For testing the system in a controlled environment.
 - Dependencies: Listed in requirements.txt.
 
-Installation
-------------
-1. Clone the Repository
-   git clone https://github.com/[your-username]/credential-stuffing-detection.git
-   cd credential-stuffing-detection
-
-2. Set Up a Virtual Environment
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. Install Dependencies
-   pip install -r requirements.txt
-   Example requirements.txt:
-   pandas
-   numpy
-   scikit-learn
-   xgboost
-   selenium
-   beautifulsoup4
-   schedule
-
-4. Set Up DVWA
-   - Install DVWA on a virtual machine following the official guide: https://github.com/digininja/DVWA
-   - Configure the VM to host DVWA on a local network (e.g., http://192.168.1.x/dvwa).
-
-5. Prepare Payload Dataset
-   - Download an XSS payload dataset (e.g., from Kaggle) and place it in the payloads/ directory as xss_payloads.txt.
 
 Project Structure
 -----------------
