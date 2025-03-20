@@ -27,19 +27,19 @@ To run this project, ensure you have the following installed:
 Project Structure
 -----------------
 credential-stuffing-detection/
-│
-├── data/
-│   ├── logs/              # Directory for raw and processed logs
-│   └── payloads/          # XSS payload dataset
-├── scripts/
-│   ├── Connection.py          # Orchestrates periodic execution
-│   ├── CSVV2.py      # Converts logs to CSV
-│   ├── TestV3.py # ML-based attack detection
-│   └── CrawlerV2.py     # Web crawler for XSS detection
-├── models/
-│   └── xgboost_model.joblib  # Pre-trained XGBoost model
-├── README.txt             # Project documentation
-└── requirements.txt       # Python dependencies
+- │
+- ├── data/
+- │   ├── logs/              # Directory for raw and processed logs
+- │   └── payloads/          # XSS payload dataset
+- ├── scripts/
+- │   ├── Connection.py          # Orchestrates periodic execution
+- │   ├── CSVV2.py      # Converts logs to CSV
+- │   ├── TestV3.py # ML-based attack detection
+- │   └── CrawlerV2.py     # Web crawler for XSS detection
+- ├── models/
+- │   └── xgboost_model.joblib  # Pre-trained XGBoost model
+- ├── README.txt             # Project documentation
+- └── requirements.txt       # Python dependencies
 
 Usage
 -----
